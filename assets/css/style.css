@@ -82,7 +82,7 @@ body {
 }
 
 .right-nav-container {
-  right: 2rem;
+  right: 4rem;
 }
 
 .menu-item {
@@ -204,6 +204,7 @@ body {
   display: flex;
 }
 
+/* Left Side Cards Container */
 .cards-container {
   width: 50%;
   height: 60rem;
@@ -363,7 +364,9 @@ body {
 
 .card-2 .top-content i {
   background-color: #eff2f5;
-  padding: .5rem;
+  font-size: 1.5rem;
+  color: #7e8299;
+  padding: .8rem;
   border-radius: .5rem;
   cursor: pointer;
 }
@@ -375,7 +378,7 @@ body {
 
 .card-2 .bottom-content .paragraph-wrapper, .card-4 .bottom-content .paragraph-wrapper {
   display: flex;
-  border-bottom: 1px dashed #E4E6EF;
+  border-bottom: 1px dashed #B5B5C3;
 }
 
 .card-2 .bottom-content .paragraph-wrapper p {
@@ -419,5 +422,74 @@ body {
   rotate: -135deg;
 }
 /* End of Fourth Card */
+/* End of Left Side Cards Container */
+
+/* Right Side Cards Container */
+.right-cards-container {
+  width: 100%;
+  height: 56rem;
+  background-color: #ffffff;
+  margin: 1rem 3rem;
+}
+
+.right-cards-container .top-content {
+  height: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-cards-container .top-content .top-left-content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #3F4254;
+}
+
+
+.right-cards-container .top-content i {
+  background-color: #eff2f5;
+  font-size: 1.5rem;
+  color: #7e8299;
+  padding: .8rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.right-cards-container .top-content i:hover {
+  background-color: #3e98ff4c;
+  color: #33446c;
+}
+
+.bottom-content .bottom-top-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-content .bottom-top-content .content-wrapper {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed #B5B5C3;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.bottom-content .bottom-top-content .content-wrapper i {
+  font-size: 3rem;
+  color: #7e8299;
+  margin-bottom: .8rem;
+}
+
+.bottom-content .bottom-top-content .content-wrapper i:hover {
+  color: #3e97ff;
+}
+
+.bottom-content .bottom-top-content .content-wrapper p {
+  font-size: 1.2rem;
+  color: #3F4254;
+}
+
+/* End of Right Side Cards Container */
 /* End of Section 1 */
 /* End of Main Container */
