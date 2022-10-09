@@ -24,6 +24,41 @@ body {
 }
 /* End of Root Container */
 
+/* Sidebar Container */
+.sidebar-container {
+  background-color: #202b46;
+  width: 32rem;
+}
+
+.sidebar-top-container {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dashed #33446c;
+}
+
+.sidebar-logo {
+  width: 10rem;
+  margin-left: 2rem;
+}
+
+.toggle-btn {
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+  background-color: #323c55;
+  color: #f5f8fa;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.fa-angles-left:hover {
+  color: #3e97ff;
+}
+/* End of Sidebar Container */
+
 /* Main Container */
 /* Navbar */
 .navbar {
