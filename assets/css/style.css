@@ -221,7 +221,7 @@ body {
   height: 26rem;
   background-color: #ffffff;
   margin: 1rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
 /* First Card */
@@ -243,7 +243,7 @@ body {
 
 .blue-card p {
   font-size: 1.5rem;
-  color: #E4E6EF !important;
+  color: #e4e6ef !important;
 }
 
 .bottom-content-1 {
@@ -252,17 +252,17 @@ body {
 
 .percent-bar {
   width: 23rem;
-  height: .8rem;
+  height: 0.8rem;
   background-color: #ffffff6c;
   margin: 1rem 0;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .percent-bar .percent {
   width: 17rem;
-  height: .8rem;
+  height: 0.8rem;
   background-color: #ffffff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   z-index: 99;
 }
 
@@ -284,7 +284,7 @@ body {
 
 .heading-wrapper h1 {
   font-size: 3.2rem;
-  padding: 0 .8rem;
+  padding: 0 0.8rem;
   font-weight: 500;
 }
 
@@ -315,7 +315,7 @@ body {
 .bottom-content .paragraph-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   font-size: 1.3rem;
   font-weight: 500;
   align-items: center;
@@ -331,9 +331,9 @@ body {
 }
 
 .dash {
-  height: .6rem;
+  height: 0.6rem;
   width: 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .green-dash {
@@ -345,7 +345,7 @@ body {
 }
 
 .other-dash {
-  background-color: #E4E6EF;
+  background-color: #e4e6ef;
 }
 /* End of Second Card */
 
@@ -354,7 +354,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #3F4254;
+  color: #3f4254;
 }
 
 .card .top-content h2 {
@@ -366,8 +366,8 @@ body {
   background-color: #eff2f5;
   font-size: 1.5rem;
   color: #7e8299;
-  padding: .8rem;
-  border-radius: .5rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -376,9 +376,10 @@ body {
   color: #33446c;
 }
 
-.card-2 .bottom-content .paragraph-wrapper, .card-4 .bottom-content .paragraph-wrapper {
+.card-2 .bottom-content .paragraph-wrapper,
+.card-4 .bottom-content .paragraph-wrapper {
   display: flex;
-  border-bottom: 1px dashed #B5B5C3;
+  border-bottom: 1px dashed #b5b5c3;
 }
 
 .card-2 .bottom-content .paragraph-wrapper p {
@@ -398,10 +399,10 @@ body {
 /* End of Third Card */
 
 /* Fourth Card */
-.card-4 .top-content, .card-2 .top-content {
+.card-4 .top-content,
+.card-2 .top-content {
   margin-top: 4rem;
 }
-
 
 .card-4 .bottom-content .paragraph-wrapper p {
   margin-bottom: 1rem;
@@ -442,16 +443,15 @@ body {
 .right-cards-container .top-content .top-left-content h2 {
   font-size: 2rem;
   font-weight: 500;
-  color: #3F4254;
+  color: #3f4254;
 }
-
 
 .right-cards-container .top-content i {
   background-color: #eff2f5;
   font-size: 1.5rem;
   color: #7e8299;
-  padding: .8rem;
-  border-radius: .5rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -470,15 +470,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px dashed #B5B5C3;
-  border-radius: .5rem;
+  border: 1px dashed #b5b5c3;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
 .bottom-content .bottom-top-content .content-wrapper i {
   font-size: 3rem;
   color: #7e8299;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .bottom-content .bottom-top-content .content-wrapper i:hover {
@@ -487,7 +487,81 @@ body {
 
 .bottom-content .bottom-top-content .content-wrapper p {
   font-size: 1.2rem;
-  color: #3F4254;
+  color: #3f4254;
+}
+
+.bottom-bottom-content {
+  padding: 2rem;
+}
+
+/* Title wrapper */
+.bottom-bottom-content .title-wrapper,
+.bottom-bottom-content .description {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottom-bottom-content .title-wrapper p {
+  font-size: 1.3rem;
+  color: #7e8299;
+  font-weight: 600;
+}
+
+/* Description */
+.bottom-bottom-content .description {
+  align-items: center;
+  margin: 2em 0;
+}
+
+.bottom-bottom-content .description .author-detail {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto" sans-serif;
+}
+
+.bottom-bottom-content .description .author-detail img {
+  width: 5rem;
+  border-radius: 0.7rem;
+  margin-right: 1rem;
+}
+
+.bottom-bottom-content .description .author-detail h2 {
+  color: #3f4254;
+  font-weight: 600;
+}
+
+.bottom-bottom-content .description .author-detail p {
+  font-size: 1.2rem;
+  color: #7e8299;
+}
+
+.bottom-bottom-content .description .conv-detail {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7e8299;
+}
+
+.bottom-bottom-content .description .chart i {
+  color: #20c997;
+  font-size: 2rem;
+}
+
+.bottom-bottom-content .description .chart .down {
+  color: #dc3545;
+}
+
+.bottom-bottom-content .description .view i {
+  background-color: #eff2f5;
+  font-size: 1.5rem;
+  color: #7e8299;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.bottom-bottom-content .description .view i:hover {
+  color: #3e97ff;
 }
 
 /* End of Right Side Cards Container */
