@@ -128,6 +128,21 @@ body {
 }
 /* End of Navbar */
 
+/* Nav Links Content */
+/* Dashboards Section */
+.dashboards {
+  width: 60rem;
+  height: 30rem;
+  top: 5rem;
+  left: 8rem;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 99;
+  border-radius: 0.5rem;
+}
+/* End of Dashboards Section */
+/* End of Nav Links Content */
+
 /* Main Container */
 .main-container {
   width: 100%;
