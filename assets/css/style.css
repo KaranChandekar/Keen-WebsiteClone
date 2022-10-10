@@ -133,12 +133,90 @@ body {
 .dashboards {
   width: 60rem;
   height: 30rem;
-  top: 5rem;
-  left: 8rem;
+  top: 7rem;
+  left: 29rem;
   background-color: #ffffff;
   position: absolute;
   z-index: 99;
   border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  padding: 1rem;
+}
+
+.dashboards .container {
+  width: 50%;
+}
+
+.dashboards .container .content-wrapper {
+  display: flex;
+  margin: 0.8rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dashboards .container .content-wrapper:hover {
+  background-color: #f5f8faca;
+}
+
+.dashboards .container .content-wrapper i {
+  background-color: #eff2f5;
+  font-size: 2rem;
+  color: #7e8299;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.dashboards .container .content-wrapper .default {
+  color: #3e97ff;
+}
+
+.dashboards .container .content-wrapper .ecommerce {
+  color: #f1416c;
+}
+
+.dashboards .container .content-wrapper .social {
+  color: #50cd89;
+}
+
+.dashboards .container .content-wrapper .online-course {
+  color: #20c997;
+}
+
+.dashboards .container .content-wrapper .project {
+  color: #7239ea;
+}
+
+.dashboards .container .content-wrapper .marketing {
+  color: #181c32;
+}
+
+.dashboards .container .content-wrapper .bidding {
+  color: #ffc700;
+}
+
+.dashboards .container .content-wrapper .logistic {
+  color: #6f42c1;
+}
+
+.dashboards .container .content-wrapper .text-wrapper {
+  margin: 0 1rem;
+}
+
+.dashboards .container .content-wrapper .text-wrapper h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3f4254;
+}
+
+.dashboards .container .content-wrapper .text-wrapper p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7e8299;
 }
 /* End of Dashboards Section */
 /* End of Nav Links Content */
@@ -179,7 +257,7 @@ body {
 .select-container {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #ffffffc6;
   padding: 0.8rem 0;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -234,7 +312,7 @@ body {
 .card {
   min-height: 7rem;
   height: 26rem;
-  background-color: #ffffff;
+  background-color: #ffffffc6;
   margin: 1rem;
   border-radius: 0.8rem;
 }
@@ -444,7 +522,7 @@ body {
 .right-cards-container {
   width: 100%;
   height: 56rem;
-  background-color: #ffffff;
+  background-color: #ffffffc6;
   margin: 1rem 3rem;
 }
 
