@@ -68,6 +68,7 @@ body {
   height: 7rem;
   display: flex;
   position: fixed;
+  box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
 }
 
 .left-nav-container,
@@ -129,7 +130,7 @@ body {
 /* End of Navbar */
 
 /* Nav Links Content */
-/* dashboards-section Section */
+/* dashboards Section */
 .dashboards-section.change {
   visibility: visible;
   /* display: block; */
@@ -148,6 +149,7 @@ body {
   justify-content: space-between;
   font-family: "Poppins";
   padding: 1rem;
+  box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
   /* display: none; */
   visibility: hidden;
 }
@@ -225,7 +227,97 @@ body {
   font-weight: 600;
   color: #7e8299;
 }
-/* End of dashboards-section Section */
+/* End of dashboards Section */
+
+/* Pages Section */
+.pages-section {
+  width: 105rem;
+  height: 45rem;
+  top: 7rem;
+  left: 39rem;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 99;
+  border-radius: 0.5rem;
+  font-family: "Poppins";
+  padding: 1rem;
+  box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.pages-section .pages-header {
+  border-bottom: 1px dashed #b5b5c3;
+  padding: 0 2rem;
+}
+
+.pages-header ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.pages-header ul li {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  margin-right: 4rem;
+  font-weight: 600;
+  color: #a1a5b7;
+  cursor: pointer;
+}
+
+.pages-header ul li:hover {
+  color: #3e97ff;
+  border-bottom: 1px solid #3e97ff;
+}
+
+.pages-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.pages-body .list-container {
+  width: 15rem;
+}
+
+.pages-body .list-container h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #323c55;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.pages-body .list-container ul {
+  list-style: none;
+}
+
+.pages-body .list-container ul li {
+  font-size: 1.2rem;
+  color: #5e6278;
+  font-weight: 500;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.pages-body .list-container ul li:hover {
+  background-color: #eff2f5;
+  color: #3e97ff;
+}
+
+.pages-img {
+  width: 35rem;
+}
+
+.pages-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+/* End of Pages Section */
 /* End of Nav Links Content */
 
 /* Main Container */
@@ -322,6 +414,7 @@ body {
   background-color: #ffffffc6;
   margin: 1rem;
   border-radius: 0.8rem;
+  box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
 }
 
 /* First Card */
