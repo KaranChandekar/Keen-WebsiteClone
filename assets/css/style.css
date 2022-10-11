@@ -129,8 +129,13 @@ body {
 /* End of Navbar */
 
 /* Nav Links Content */
-/* Dashboards Section */
-.dashboards {
+/* dashboards-section Section */
+.dashboards-section.change {
+  visibility: visible;
+  /* display: block; */
+}
+
+.dashboards-section {
   width: 60rem;
   height: 30rem;
   top: 7rem;
@@ -143,13 +148,15 @@ body {
   justify-content: space-between;
   font-family: "Poppins";
   padding: 1rem;
+  /* display: none; */
+  visibility: hidden;
 }
 
-.dashboards .container {
+.dashboards-section .container {
   width: 50%;
 }
 
-.dashboards .container .content-wrapper {
+.dashboards-section .container .content-wrapper {
   display: flex;
   margin: 0.8rem;
   padding: 1rem;
@@ -158,11 +165,11 @@ body {
   cursor: pointer;
 }
 
-.dashboards .container .content-wrapper:hover {
+.dashboards-section .container .content-wrapper:hover {
   background-color: #f5f8faca;
 }
 
-.dashboards .container .content-wrapper i {
+.dashboards-section .container .content-wrapper i {
   background-color: #eff2f5;
   font-size: 2rem;
   color: #7e8299;
@@ -171,54 +178,54 @@ body {
   cursor: pointer;
 }
 
-.dashboards .container .content-wrapper .default {
+.dashboards-section .container .content-wrapper .default {
   color: #3e97ff;
 }
 
-.dashboards .container .content-wrapper .ecommerce {
+.dashboards-section .container .content-wrapper .ecommerce {
   color: #f1416c;
 }
 
-.dashboards .container .content-wrapper .social {
+.dashboards-section .container .content-wrapper .social {
   color: #50cd89;
 }
 
-.dashboards .container .content-wrapper .online-course {
+.dashboards-section .container .content-wrapper .online-course {
   color: #20c997;
 }
 
-.dashboards .container .content-wrapper .project {
+.dashboards-section .container .content-wrapper .project {
   color: #7239ea;
 }
 
-.dashboards .container .content-wrapper .marketing {
+.dashboards-section .container .content-wrapper .marketing {
   color: #181c32;
 }
 
-.dashboards .container .content-wrapper .bidding {
+.dashboards-section .container .content-wrapper .bidding {
   color: #ffc700;
 }
 
-.dashboards .container .content-wrapper .logistic {
+.dashboards-section .container .content-wrapper .logistic {
   color: #6f42c1;
 }
 
-.dashboards .container .content-wrapper .text-wrapper {
+.dashboards-section .container .content-wrapper .text-wrapper {
   margin: 0 1rem;
 }
 
-.dashboards .container .content-wrapper .text-wrapper h2 {
+.dashboards-section .container .content-wrapper .text-wrapper h2 {
   font-size: 1.5rem;
   font-weight: 600;
   color: #3f4254;
 }
 
-.dashboards .container .content-wrapper .text-wrapper p {
+.dashboards-section .container .content-wrapper .text-wrapper p {
   font-size: 1.2rem;
   font-weight: 600;
   color: #7e8299;
 }
-/* End of Dashboards Section */
+/* End of dashboards-section Section */
 /* End of Nav Links Content */
 
 /* Main Container */
