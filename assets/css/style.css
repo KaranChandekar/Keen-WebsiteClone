@@ -79,11 +79,11 @@ body {
 }
 
 .left-nav-container {
-  left: 28rem;
+  left: 28.5rem;
 }
 
 .right-nav-container {
-  right: 4rem;
+  right: 2.5rem;
 }
 
 .menu-item {
@@ -133,7 +133,6 @@ body {
 /* dashboards Section */
 .dashboards-section.change {
   visibility: visible;
-  /* display: block; */
 }
 
 .dashboards-section {
@@ -150,7 +149,6 @@ body {
   font-family: "Poppins";
   padding: 1rem;
   box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
-  /* display: none; */
   visibility: hidden;
 }
 
@@ -232,7 +230,6 @@ body {
 /* Pages Section */
 .pages-section.change {
   visibility: visible;
-  /* display: block; */
 }
 
 .pages-section {
@@ -247,7 +244,6 @@ body {
   font-family: "Poppins";
   padding: 1rem;
   box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
-  /* display: none; */
   visibility: hidden;
 }
 
@@ -380,7 +376,7 @@ body {
 }
 
 .plus-btn {
-  margin: 0 1.5rem;
+  margin-left: 1.5rem;
   font-size: 1.5rem;
   color: #eff2f5;
   font-weight: 300;
@@ -397,33 +393,35 @@ body {
 
 /* Section 1 */
 .section-1 {
-  margin: 0 2rem;
+  margin: 0 1rem;
   display: flex;
 }
 
 /* Left Side Cards Container */
 .cards-container {
-  width: 50%;
-  height: 60rem;
+  width: 100%;
+  height: 56rem;
+  margin: 2rem;
   display: flex;
+  justify-content: space-between;
 }
 
 .cards-wrapper {
-  width: 50%;
-  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card {
   min-height: 7rem;
-  height: 26rem;
+  height: 27rem;
+  width: 27rem;
   background-color: #ffffffc6;
-  margin: 1rem;
   border-radius: 0.8rem;
   box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
 }
 
 /* First Card */
-
 .blue-card {
   background-color: #3e97ff;
 }
@@ -431,6 +429,7 @@ body {
 .top-content {
   height: 30%;
   padding: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .blue-card h1 {
@@ -507,7 +506,7 @@ body {
 }
 
 .card .bottom-content {
-  padding: 2.5rem;
+  padding: 0 2.5rem;
 }
 
 .bottom-content .paragraph-wrapper {
@@ -597,11 +596,6 @@ body {
 /* End of Third Card */
 
 /* Fourth Card */
-.card-4 .top-content,
-.card-2 .top-content {
-  margin-top: 4rem;
-}
-
 .card-4 .bottom-content .paragraph-wrapper p {
   margin-bottom: 1rem;
 }
@@ -628,7 +622,7 @@ body {
   width: 100%;
   height: 56rem;
   background-color: #ffffffc6;
-  margin: 1rem 3rem;
+  margin: 2rem;
   border-radius: 0.8rem;
   box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
 }
@@ -638,6 +632,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .right-cards-container .top-content .top-left-content h2 {
@@ -691,7 +686,8 @@ body {
 }
 
 .bottom-bottom-content {
-  padding: 2rem;
+  margin-top: 2rem;
+  padding: 0 2rem;
 }
 
 /* Title wrapper */
